@@ -57,3 +57,20 @@ section#redes-sociais img:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
   transition: transform 0.7s, border 0.8s;
 }
+
+@media (max-width: 480px) {
+    section#telefone {
+        width: 180px;
+    }
+
+    iframe#tela {
+        width: 150px;
+        height: 270px;
+        top: 55px;
+        left: 15px;
+    }
+
+    section#redes-sociais img {
+        width: 35px;
+    }
+}
